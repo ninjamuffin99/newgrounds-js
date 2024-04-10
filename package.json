@@ -4,10 +4,10 @@
     "description": "Your game with newgrounds.io in one import",
     "homepage": "https://newgrounds.io/",
     "repository": "github:lajbel/newgrounds-js",
-    "main": "./dist/newgrounds.cjs",
+    "main": "./src/main.ts",
     "browser": "./dist/newgrounds.js",
-    "module": "./dist/newgrounds.mjs",
-    "types": "./dist/types.d.ts",
+    "module": "./src/main.ts",
+    "types": "./src/types.ts",
     "type": "module",
     "scripts": {
         "start": "npm run build",
@@ -19,7 +19,7 @@
         "source/"
     ],
     "exports": {
-        "import": "./dist/newgrounds.mjs",
+        "import": "./src/main.ts",
         "require": "./dist/newgrounds.cjs"
     },
     "keywords": [
